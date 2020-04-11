@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "object",
+      "properties": {
+        "scheme": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "legalName": {
+          "type": "string"
+        }
+      }
+    },
+    "kind": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "identifier"
+  ],
+  "additionalProperties": false
+}
